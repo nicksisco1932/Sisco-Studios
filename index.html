@@ -1,53 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sisco Studios</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* Add this CSS to the head section or in your style.css file */
-        .art-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-            gap: 16px;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sisco Studios</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .art-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 16px;
+    }
 
-        .art-grid img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-    </style>
+    .art-grid img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .etsy-button {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+      transition: background-color 0.3s ease;
+    }
+
+    .etsy-button:hover {
+      background-color: #555;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Sisco Studios</h1>
-        <p>Exploring the fusion of science, geometry, and abstraction.</p>
-    </header>
+  <header>
+    <h1>Sisco Studios</h1>
+    <p>Exploring the fusion of science, geometry, and abstraction.</p>
+  </header>
 
-    <section id="bio">
-        <h2>About Me</h2>
-        <p>Nicholas J. Sisco, Ph.D., merges science and art, blending geometry, chemistry, and abstraction. With a background in biochemistry, neuroscience, and MRI imaging, his work explores structure, color, and precision.</p>
-    </section>
+  <section id="bio">
+    <h2>About Me</h2>
+    <p>
+      Nicholas J. Sisco, Ph.D., merges science and art, blending geometry, chemistry, and abstraction. 
+      With a background in biochemistry, neuroscience, and MRI imaging, his work explores structure, color, and precision.
+    </p>
+  </section>
 
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <div class="art-grid">
-            <img src="Images/62853e10-03a2-11f0-a43f-9b67ee2655f8.jpg" alt="Artwork 1">
-            <img src="Images/c2ccd440-00f0-11f0-8dcf-53563cde4669.jpg" alt="Artwork 2">
-            <img src="Images/f5647590-0738-11f0-b787-a71d5db8629e.jpg" alt="Artwork 3">
-        </div>
-    </section>
-    <section id="shop">
-        <h2>Shop</h2>
-        <p>Originals available at <a href="https://www.etsy.com/shop/SiscoStudios" target="_blank" rel="noopener noreferrer">my Etsy shop</a>.</p>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Want to connect? Reach me at <a href="mailto: nicksisco1932@gmail.com">nicksisco1932 at gmail dot com</a></p>
-    </section>
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="art-grid">
+      <img src="Images/62853e10-03a2-11f0-a43f-9b67ee2655f8.jpg" alt="Abstract 1" />
+      <img src="Images/c2ccd440-00f0-11f0-8dcf-53563cde4669.jpg" alt="Fractured Horizon 1" />
+      <img src="Images/f5647590-0738-11f0-b787-a71d5db8629e.jpg" alt="Fractured Horizon 2" />
+    </div>
+  </section>
+
+  <section id="shop">
+    <h2>Shop</h2>
+    <p>Explore available originals:</p>
+    <a 
+      href="https://www.etsy.com/shop/SiscoStudios" 
+      target="_blank" 
+      rel="noopener noreferrer" 
+      class="etsy-button"
+    >
+      Visit My Etsy Shop
+    </a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>
+      Want to connect? Reach me at 
+      <a href="mailto:nicksisco1932@gmail.com">nicksisco1932 at gmail dot com</a>
+    </p>
+  </section>
 
 </body>
 </html>
