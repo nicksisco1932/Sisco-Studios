@@ -6,6 +6,19 @@
   <title>Sisco Studios</title>
   <link rel="stylesheet" href="style.css" />
   <style>
+    body {
+      font-family: sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, section, footer {
+      padding: 20px;
+      max-width: 960px;
+      margin: auto;
+    }
+
     .art-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -33,7 +46,22 @@
     .etsy-button:hover {
       background-color: #555;
     }
+
+    footer {
+      text-align: center;
+      background-color: #f4f4f4;
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header, section, footer {
+        padding: 10px;
+      }
+    }
   </style>
+  <meta name="description" content="Original abstract artwork by Nicholas J. Sisco, Ph.D., exploring the fusion of science, geometry, and abstraction." />
 </head>
 <body>
 
@@ -53,9 +81,18 @@
   <section id="gallery">
     <h2>Gallery</h2>
     <div class="art-grid">
-      <img src="Images/62853e10-03a2-11f0-a43f-9b67ee2655f8.jpg" alt="Abstract 1" />
-      <img src="Images/c2ccd440-00f0-11f0-8dcf-53563cde4669.jpg" alt="Fractured Horizon 1" />
-      <img src="Images/f5647590-0738-11f0-b787-a71d5db8629e.jpg" alt="Fractured Horizon 2" />
+      <figure>
+        <img src="Images/62853e10-03a2-11f0-a43f-9b67ee2655f8.jpg" alt="Fragmented Horizon 1">
+        <figcaption>Fragmented Horizon 1</figcaption>
+      </figure>
+      <figure>
+        <img src="Images/c2ccd440-00f0-11f0-8dcf-53563cde4669.jpg" alt="Fragmented Horizon 2">
+        <figcaption>Fragmented Horizon 2</figcaption>
+      </figure>
+      <figure>
+        <img src="Images/f5647590-0738-11f0-b787-a71d5db8629e.jpg" alt="Work in Progress">
+        <figcaption>Work in Progress</figcaption>
+      </figure>
     </div>
   </section>
 
@@ -78,7 +115,16 @@
       Want to connect? Reach me at 
       <a href="mailto:nicksisco1932@gmail.com">nicksisco1932 at gmail dot com</a>
     </p>
+    <p>
+      Follow my work on 
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a> or explore more at 
+      <a href="https://siscostudios.com" target="_blank">siscostudios.com</a>.
+    </p>
   </section>
+
+  <footer>
+    <p>&copy; 2025 Sisco Studios. All rights reserved.</p>
+  </footer>
 
 </body>
 </html>
