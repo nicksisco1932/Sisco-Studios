@@ -126,14 +126,47 @@
           A visual and cognitive timeline tracing my progression from emotive landscapes and geometric sketches to the perceptual deconstruction that defines the <em>Fractured Horizon</em> series.
           Each piece is a breadcrumb—fragmented, mnemonic, and foundational.
         </p>
-        <a href="https://github.com/nicksisco1932/Sisco-Studios/blob/main/fractured-memory.md">
+        <a href="https://nicksisco1932.github.io/Sisco-Studios/fractured-memory">
           → View the Full Evolution
         </a>
+      </section>
+
+      <section id="shop">
+        <h2>Shop</h2>
+        <p>Explore available originals:</p>
+        <a 
+          href="https://www.etsy.com/shop/SiscoStudios" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="etsy-button"
+        >
+          Visit My Etsy Shop
+        </a>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Want to connect? Reach me at: <span id="email"></span></p>
+        <p>Follow my work on <span id="instagram"></span></p>
       </section>
 
     </main>
     <footer>
       <p>&copy; 2025 Sisco Studios. All rights reserved.</p>
     </footer>
+
+    <script>
+      // Email setup
+      const emailUser = "nicksisco1932";
+      const emailDomain = "gmail.com";
+      const emailEl = document.getElementById("email");
+      emailEl.innerHTML = `<a href="mailto:${emailUser}@${emailDomain}">${emailUser} at ${emailDomain.replace('.', ' dot ')}</a>`;
+
+      // Instagram setup
+      const instaUser = "sisco_studios";
+      const instaEl = document.getElementById("instagram");
+      instaEl.innerHTML = `<a href="https://www.instagram.com/${instaUser}/" target="_blank">@${instaUser}</a>`;
+    </script>
+
   </body>
 </html>
