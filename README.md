@@ -1,1 +1,1 @@
-[Fractured Memory: Evolution Toward the Horizon](pages/fractured-memory.md)
+[Fractured Memory: Evolution Toward the Horizon](fractured-memory.md)
